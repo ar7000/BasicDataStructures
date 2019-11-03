@@ -1,0 +1,1 @@
+let yourArray = ["Hello",0,"Goodbye",1,true];
