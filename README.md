@@ -38,3 +38,36 @@ Revisiting Basic Data Structures via FreeCodeCamp resources and copying passed c
     forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']); //Returns ["warm","sunny"]
     
     ```
+
+- Reminded of when to use dot and when to use bracket notation when calling object properties:
+    - Dot notation is easy and clear to read but will only work when calling keys directly, example:
+
+    ```
+    let myObject{
+        name:"Ash";
+        mood:"grumpy"
+        hungerLevel:"Ready to eat a horse"
+    }
+
+    let name = myObject.name;
+    ```
+
+    - Bracket notation must be used when calling properties with variables or function params, example:
+
+    ```
+    let foods = {
+        apples: 25,
+        oranges: 32,
+        plums: 28,
+        bananas: 13,
+        grapes: 35,
+        strawberries: 27
+    };
+
+    function checkInventory(scannedItem) {
+
+    return foods[scannedItem];
+    
+    }
+
+    ```
