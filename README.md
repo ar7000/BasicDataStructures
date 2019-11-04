@@ -24,3 +24,17 @@ Revisiting Basic Data Structures via FreeCodeCamp resources and copying passed c
     let song = replaceColors(["blue","red","green","yellow","orange","violet","pink"]); //Returns ["blue","da","ba","de","da","ba","di"]
     
     ```
+
+    - Reminded how to use .slice() to extract/copy a value or number of values without removing them from the original array. Example:
+
+    ```
+    function forecast(arr) {
+
+    const niceWeather = arr.slice(2, 4);
+    return niceWeather;
+
+    }
+
+    forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']); //Returns ["warm","sunny"]
+    
+    ```
